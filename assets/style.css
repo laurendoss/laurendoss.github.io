@@ -2,23 +2,17 @@
     background-color: #d59696;
    
 }
-h1 {
-    /* Change the size of your font to 60 pixels high. */
+header h1 {
     font-size: 60px;
-    /* This will color the heading font white. */
     color: white;
-    /* Align the text to the center of its enclosing element (e.g. div). */
     text-align: center;
-    /* The background of the heading element will now be black. */
     background-color: burlywood;
           }
-          h2 {
-    /* Put a 15-pixel margin at the top of all h2 headings. */
+header h2 {
     font-size: 40px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    float: none;
   }
     img {
     /* 
@@ -34,36 +28,31 @@ h1 {
   p {
     text-align: center;
     font-size: 20px;
-    /* Bold the text. */
-    font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+  
   }
-  ul {
-    text-align: center;
-    font-size: 20px;
-    list-style-position: inside;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-  }
+ 
   .float-left{
       float: left;
       border-radius: 50%;
       position: relative;
+      top: 10px;
       left: 50px;
 
      
   }
-  section {
-      float: right;
+  .general-info {
       font-size: medium;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       color: white;
   }
-  header {
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      color: white;
-  }
+  
   #contact-info {
+    text-align: center;
+    font-size: 20px;
+    list-style-position: inside;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white
 
   }
