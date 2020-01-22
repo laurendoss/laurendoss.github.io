@@ -24,6 +24,7 @@ header h2 {
     margin-right: auto;
     /* Block display (more on this later) */
     display: block;
+    border: white dotted;
   }
   p {
     text-align: center;
