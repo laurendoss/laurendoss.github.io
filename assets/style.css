@@ -39,9 +39,10 @@ header h2 {
       float: left;
       border-radius: 50%;
       position: fixed;
-      width: 175px;
-      left: 25%;
+      width: 300px;
+      left: 16%;
       z-index: 1;
+      transform: rotate(90deg);
  
 
      
