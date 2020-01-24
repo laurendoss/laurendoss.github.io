@@ -1,5 +1,5 @@
 * {
-    background-color: #d59696;
+    background-color: #b39283;
    
 }
 header h1 {
@@ -7,6 +7,7 @@ header h1 {
     color: white;
     text-align: center;
     background-color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
           }
 header h2 {
     font-size: 40px;
@@ -42,6 +43,7 @@ header h2 {
       width: 300px;
       left: 16%;
       z-index: 1;
+      bottom: 45%;
       transform: rotate(90deg);
  
 
