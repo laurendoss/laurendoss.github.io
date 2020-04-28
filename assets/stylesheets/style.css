@@ -12,6 +12,10 @@
 
  
 }
+.card-body{
+  padding: 0;
+  
+}
 #contactCard {
   position: relative;
   z-index: 2;
