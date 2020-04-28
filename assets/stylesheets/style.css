@@ -12,6 +12,12 @@
 
  
 }
+#contactCard {
+  position: relative;
+  z-index: 2;
+  margin-left: 400px;
+  margin-top: 70px;
+}
 #photoRow{
   position: relative;
 }
