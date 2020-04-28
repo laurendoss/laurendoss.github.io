@@ -1,0 +1,23 @@
+/* .jumbotron-fluid  {
+  background-color: #d4e7cd;
+  text-align: center;
+} */
+
+#photoCard{
+  /* margin-top: 50px;  */
+  z-index: 2;
+  position: absolute;
+  top:0; 
+  left: 0;
+
+ 
+}
+#photoRow{
+  position: relative;
+}
+#header {
+  z-index: -2;
+  text-align: center;
+  margin-bottom: 0;
+  position: relative;
+}
