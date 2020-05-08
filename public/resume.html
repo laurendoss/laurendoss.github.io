@@ -20,66 +20,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
       type="text/css"
     />
-    <style type="text/css">
-      body {
-        background-color: #ffffff;
-        -webkit-font-smoothing: antialiased;
-        -moz-font-smoothing: grayscale;
-      }
-
-      .main.container {
-        margin-top: 2em;
-      }
-
-      .main.menu {
-        margin-top: 4em;
-        border-radius: 0;
-        border: none;
-        box-shadow: none;
-        transition: box-shadow 0.5s ease, padding 0.5s ease;
-      }
-
-      .main.menu .item img.logo {
-        margin-right: 1.5em;
-      }
-
-      .overlay {
-        float: left;
-        margin: 0em 3em 1em 0em;
-      }
-
-      .overlay .menu {
-        position: relative;
-        left: 0;
-        transition: left 0.5s ease;
-      }
-
-      .main.menu.fixed {
-        background-color: #ffffff;
-        border: 1px solid #ddd;
-        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
-      }
-
-      .overlay.fixed .menu {
-        left: 800px;
-      }
-
-      .text.container .left.floated.image {
-        margin: 2em 2em 2em -4em;
-      }
-
-      .text.container .right.floated.image {
-        margin: 2em -4em 2em 2em;
-      }
-
-      .ui.footer.segment {
-        margin: 5em 0em 0em;
-        padding: 5em 0em;
-      }
-      .languages {
-          align-items: right;
-      }
-    </style>
+    <link rel="stylesheet" href="../assets/stylesheets/resume.css">
+ 
   </head>
 
   <body id="root">
@@ -91,10 +33,10 @@
     </div>
     <div class="ui borderless main menu">
       <div class="ui text container">
-        <a class="item" href="./index3.html">Home</a>
-        <a class="item" href="https://github.com/laurendoss">GitHub</a>
-        <a class="item" href="./portfolio.html">Portfolio</a>
-        <a class="item" href="./contact.html">Contact</a>
+        <a class="item" href="./index3.html" target="_blank">Home</a>
+        <a class="item" href="https://github.com/laurendoss" target="_blank">GitHub</a>
+        <a class="item" href="./portfolio.html" target="_blank">Portfolio</a>
+        <a class="item" href="./contact.html" target="_blank">Contact</a>
    
       
       </div>
@@ -103,6 +45,8 @@
         <div class="overlay">
             <div class="ui labeled icon vertical menu">
               <img src="../assets/img/lauren.jpg" height="350" width="275">
+              <h4>Phone Number: 408-891-2183</h4>
+              <h4>Email: doss.laurene@gmail.com</h4>
               
               
             </div>
@@ -110,22 +54,26 @@
    
      
       <div class="languages">
-       <h2>Languages and Tools</h2>
+       <h3>Languages and Tools</h3>
        <ul>
         <li>HTML</li>
         <li>CSS</li>
-        <li>Javascript</li>
+        <li>JavaScript</li>
         <li>jQuery</li>
+        <li>API</li>
+        <li>Node.js</li>
+        <li>MySQL</li>
+        <li>Sequelize </li>
         <li>Express</li>
 
        </ul>
       </div>
       
       <p>
-       <h1>Projects</h1>
+       <h3>Projects</h3>
       </p>
     
-      <h2>Explore Cascadia</h2>
+      <h4>Explore Cascadia</h4>
       <p>
           
         The objective of this project was to create a responsive webpage utilizing data from API's that we had not previously used in class. We chose to use the NPS (National Park Service) API and the Weather API. 
@@ -134,9 +82,9 @@
         This project required extensive work with multiple web API's, jQuery, JavaScript, and utilizing the Chrome Developer tools for styling and debugging. This project also required learning a new framework, Semantic UI.
         Explore Cascadia gave me a lot of experience collaborating on a team with other developers. My primary role was the 
         front end of the application, however, I also assisted with the back end API calls. 
-        The project can be viewed either on my Portfolio page or <a href="https://dylanhulbert.github.io/project-01/">here</a>
+        The project can be viewed either on my Portfolio page or <a href="https://dylanhulbert.github.io/project-01/">here</a>.
       </p>
-      <h2>Explore Cocktails</h2>
+      <h4>Explore Cocktails</h4>
       <p>
        The objective of this project was to create a responsive and deployed full-stack application which allows the user to 
        access and add to a database through various front end pages. We chose to create a Cocktail application where the user could
@@ -145,14 +93,14 @@
        Sequelize, Express, Heroku, and JawsDB. 
        My primary role on this project was to develop the backend of the application. I really enjoyed being able 
        to build out the server side portion of the app and I feel as though it really gave me a lot of backend experience that 
-       I didn't previousl have with Explore Cascadia. 
-        The application can be viewed either on my Portfolio page or <a href="https://team-project-02.herokuapp.com/">here</a>
+       I didn't previous have with Explore Cascadia. 
+        The application can be viewed either on my Portfolio page or <a href="https://team-project-02.herokuapp.com/">here</a>.
       </p>
-      <h1>Experience</h2>
+      <h3>Experience</h3>
         <div>
-        <h2>QC Associate 1, Genentech</h2>
-        <h3>Hillsboro, OR</h3>
-        <h4>August 2013-Present</h4>
+        <h4>QC Associate 1, Genentech</h4>
+        <h5>Hillsboro, OR</h5>
+        <h5>August 2013-Present</h5>
         <ul>
             <li>Perform analytical and biological assays on commercial drug product, active pharmaceutical ingredient (API), and water for injection (WFI) samples in support of lot release testing at Genentech’s Hillsboro Technical Operations facility.  </li>
             <li>Microbial methods include: bioburden membrane filtration, detection of endotoxin via kinetic and gel-clot compendial methods, product sterility testing, and quantitative growth promotion testing of microbiological media.</li>
@@ -167,14 +115,14 @@
             <li>Contribute to the cross-training proficiency matrix by serving as a trainer for multiple assays and tasks. </li>
         </ul>
         </div>
-        <h1>Education</h1>
+        <h3>Education</h3>
         <div>
-            <h3>University of Oregon</h3>
+            <h4>University of Oregon</h4>
             <p>Full-Stack Flex Programming Bootcamp<p>
             <p>Graduated June 2020</p>
         
         
-            <h3>University of Portland</h3>
+            <h4>University of Portland</h4>
             <p>Bachelor's of Science in Biology</p>
             <p>Graduated June 2013</p>
         </div>
@@ -182,7 +130,7 @@
     
       
     </div>
-    <div class="ui inverted vertical footer segment">
+    <!-- <div class="ui inverted vertical footer segment">
       <div class="ui center aligned container">
         <div class="ui stackable inverted divided grid">
           <div class="three wide column">
@@ -229,33 +177,13 @@
           <a class="item" href="#root">Privacy Policy</a>
         </div>
       </div>
-    </div>
+    </div> -->
     <script src="/static/dist/semantic-ui/semantic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+    <script src="../assets/js/resume.js"></script>
     <script>
-      $(document).ready(function() {
-        // fix main menu to page on passing
-        $(".main.menu").visibility({
-          type: "fixed"
-        });
-        $(".overlay").visibility({
-          type: "fixed",
-          offset: 80
-        });
-
-        // lazy load images
-        $(".image").visibility({
-          type: "image",
-          transition: "vertical flip in",
-          duration: 500
-        });
-
-        // show dropdown on hover
-        $(".main.menu  .ui.dropdown").dropdown({
-          on: "hover"
-        });
-      });
+      
     </script>
   </body>
 </html>
