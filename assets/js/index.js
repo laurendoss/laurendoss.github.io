@@ -7,3 +7,9 @@ $("#buttonContact").click(function(){
 $("#buttonPortfolio").click(function(){
     window.location.href="portfolio.html"
 })
+
+$('.ui.sticky')
+  .sticky({
+    context: '#context'
+  })
+;
