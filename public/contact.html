@@ -1,54 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/stylesheets/style.css">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="Semantic-UI-Forest, collection of design, themes and templates for Semantic-UI."
+    />
+    <meta name="keywords" content="Semantic-UI, Theme, Design, Template" />
+    <meta name="author" content="PPType" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Lauren Doss</title>
-</head>
-<body>
-    
-    <div class="jumbotron jumbotron-fluid" id="header">
-        <div class="container">
-          <h1 class="display-4">Contact Page</h1>
-          <!-- <p class="lead">Full-Stack Developer in Training through the University of Oregon</p> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      type="text/css"
+    />
+   <link rel="stylesheet" href="../assets/stylesheets/home.css">
+  </head>
+
+  <body id="root">
+    <div class="ui inverted vertical center aligned segment">
+      <nav class="ui container">
+        
+        <div class="ui borderless inverted compact menu">
+          <a class="item" href="./portfolio2.html">Portfolio</a> <a class="item" href="./resume.html">Resume</a>
+          <a class="item" href="./contact.html">Contact</a>
         </div>
-     
-    <div class="container">
-        <div class="row" id="photoRow">
-            <div class="col-4" id="photoCard">
-                <div class="card" style="width: 18rem;">
-                    <img src="./assets/img/lauren.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">
-                        <p>Aspiring Full Stack Developer currently attending the University of Oregon Coding Bootcamp</p>
-                        
-                      </p>
+      </nav>
+      <div class="ui content container">
+        <div class="ui grid">
+          <div class="ui row">
+            <div class="eight wide column" id="bioImg">
+              <img src="../assets/img/lauren.jpg" height="400" width="350">
+            </div>
+            <div class="eight wide column" id="bioName">
+                <div class="card">
+                    <div class="content">
+                    <h3> I can be reached at: </h3>
+                      <h4>Phone: 408-891-2183</h4>
+                      <h4>Email: doss.laurene@gmail.com</h4>
+
                     </div>
                   </div>
-
-            </div>
-           
         </div>
+          </div>
+       
+      </div>
+      </div>
+      <footer class="ui inverted vertical segment">
+        Cover template for <a href="http://semantic-ui.com">Semantic-UI</a>, by
+        <a href="https://github.com/semantic-ui-forest">@Semantic-UI-Forest</a>.
+      </footer>
     </div>
-</div>
-<div class="container">
-    <div class="row">
-<div class = "col-8">
-    <div class="card" id="contactCard">
-        <div class="card-body">
-            <button type="button" id= "buttonAboutMe"class="btn btn-primary btn-lg btn-block">About Me</button>
-            <button type="button" id= "buttonContact"class="btn btn-primary btn-lg btn-block">Contact Info</button>
-            <button type="button" id= "buttonPortfolio"class="btn btn-primary btn-lg btn-block">Portfolio</button>
-      </div>
-      </div>
-      </div>
-</div>
-   
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="./assets/js/index.js"></script>
-</body>
+  </body>
 </html>
